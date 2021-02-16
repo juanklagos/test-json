@@ -1,0 +1,879 @@
+{
+  "stepsOrder": [
+    "step1_init",
+    "Home details",
+    "Coverage",
+    "Risk Characteristics"
+  ],
+  "status": "progress",
+  "createdAt": "2021-02-11T02:46:55.671Z",
+  "updatedAt": "2021-02-11T02:46:55.671Z",
+  "_id": "602bcef7ad17010012ba8230",
+  "uuid": "a60b5f98-f5fb-4b09-8afa-e248bead084a",
+  "modelRef": "e4efca96-dbc1-4ecd-baa3-b1a61a924553",
+  "currentStep": "Home details",
+  "steps": {
+    "step1_init": {
+      "properties": [
+        {
+          "name": "fullAddress",
+          "map": "prop_address_full",
+          "typeInput": "string",
+          "label": "Full Address",
+          "show": "always"
+        },
+        {
+          "name": "propCountry",
+          "map": "prop_country",
+          "typeInput": "string",
+          "label": "Country",
+          "show": "always"
+        },
+        {
+          "name": "propCounty",
+          "map": "prop_county",
+          "typeInput": "string",
+          "label": "County",
+          "show": "always"
+        },
+        {
+          "name": "propState",
+          "map": "prop_state",
+          "typeInput": "string",
+          "label": "State",
+          "show": "always"
+        },
+        {
+          "name": "propCity",
+          "map": "prop_city",
+          "typeInput": "string",
+          "label": "City",
+          "show": "always"
+        },
+        {
+          "name": "propZipCode",
+          "map": "prop_zip_code",
+          "typeInput": "string",
+          "label": "Zip Code",
+          "show": "always"
+        },
+        {
+          "name": "addressLine1",
+          "map": "prop_address_line_1",
+          "typeInput": "string",
+          "label": "Address Line 1",
+          "show": "always"
+        },
+        {
+          "name": "addressLine2",
+          "map": "prop_address_line_2",
+          "typeInput": "string",
+          "label": "Address Line 2",
+          "show": "always"
+        },
+        {
+          "name": "addressLine3",
+          "map": "prop_address_line_3",
+          "typeInput": "string",
+          "label": "Address Line 3",
+          "show": "always"
+        },
+        {
+          "name": "insuredBirthDate",
+          "map": "insured_birth_date",
+          "typeInput": "string",
+          "label": "Insured Birth date",
+          "show": "always"
+        },
+        {
+          "name": "insuredType",
+          "map": "insured_type",
+          "typeInput": "enum",
+          "label": "Insured type",
+          "values": [
+            {
+              "label": "Trust",
+              "value": "trust"
+            },
+            {
+              "label": "LLC",
+              "value": "llc"
+            },
+            {
+              "label": "Individual",
+              "value": "individual"
+            },
+            {
+              "label": "Other",
+              "value": "other"
+            }
+          ],
+          "defaultValue": "individual"
+        },
+        {
+          "name": "insuredTrustName",
+          "map": "insured_trust_name",
+          "typeInput": "string",
+          "label": "Insured Name (Trust case)",
+          "show": "always"
+        },
+        {
+          "name": "insuredLlcName",
+          "map": "insured_llc_name",
+          "typeInput": "string",
+          "label": "Insured Name (LLC case)",
+          "show": "always"
+        },
+        {
+          "name": "insuredName",
+          "map": "insured_name",
+          "typeInput": "string",
+          "label": "Insured Name",
+          "show": "always"
+        },
+        {
+          "name": "insuredMiddlename",
+          "map": "insured_middlename",
+          "typeInput": "string",
+          "label": "Insured Middle name",
+          "show": "always"
+        },
+        {
+          "name": "insuredLastname",
+          "map": "insured_lastname",
+          "typeInput": "string",
+          "label": "Insured Last name",
+          "show": "always"
+        },
+        {
+          "name": "propInsuredPhone",
+          "map": "prop_insured_phone",
+          "typeInput": "string",
+          "label": "Insured phone address",
+          "show": "always"
+        },
+        {
+          "name": "propInsuredEmail",
+          "map": "prop_insured_email",
+          "typeInput": "string",
+          "label": "Insured email address",
+          "show": "always"
+        }
+      ],
+      "values": {
+        "fullAddress": {
+          "street_line": "253 NE 2nd Ave",
+          "secondary": "",
+          "city": "Delray Beach",
+          "state": "FL",
+          "zipcode": "33444",
+          "entries": 0
+        },
+        "addressLine1": "4786 SW 14TH PL",
+        "addressLine2": "DEERFIELD BEACH, FL 33442",
+        "addressLine3": "-",
+        "propWhoLive": "owner",
+        "quoteType": "custom",
+        "insuredType": "individual",
+        "insuredName": "weq",
+        "insuredMiddlename": " ",
+        "insuredLastname": "eq",
+        "insuredBirthDate": "01/01/2002",
+        "insuredBirthPhone": "8601234567",
+        "propUsage": "Primary",
+        "numberMonthsOccupied": "12",
+        "propCountry": "US",
+        "propCounty": "Broward County",
+        "propState": "FL",
+        "propCity": "DEERFIELD BEACH",
+        "propZipCode": "33442",
+        "propType": "residential",
+        "propType2": "Single Family",
+        "propYearBuilt": "1999",
+        "propRoofYear": "1999",
+        "propRoofShape": "Other",
+        "propRoofMaterial": "Rolled Roof",
+        "propSizeSqft": "1386.00",
+        "propStories": "2",
+        "propConstructionType": "Masonry",
+        "propDistanceFireHydrantFt": "700",
+        "coverageA": "207900.00",
+        "insuredTrustName": "-",
+        "insuredLlcName": "-",
+        "propInsuredPhone": "-",
+        "propInsuredEmail": "eq@dhd.co",
+        "deductiblesAOP": 500,
+        "deductiblesHurricane": "2%",
+        "burglarAlarm": "None",
+        "fireAlarm": "None",
+        "wmOpeningProtection": "None - Unknown",
+        "wmRoofDeckAttachment": "Other Roof Deck",
+        "wmRoofWallConnection": "Unknown",
+        "wmRoofCover": "Non- FBC Equivalent",
+        "wmSwr": "No"
+      }
+    },
+    "Home details": {
+      "properties": [
+        {
+          "name": "quoteType",
+          "map": "quote_type",
+          "typeInput": "enum",
+          "label": "Quote type",
+          "values": [
+            {
+              "label": "Custom",
+              "value": "custom"
+            },
+            {
+              "label": "No Custom",
+              "value": "no custom"
+            }
+          ],
+          "defaultValue": "custom",
+          "customData": {
+            "events": [
+              {
+                "type": "hide",
+                "action": "hidePropType",
+                "target": "propType",
+                "attributes": "__newValue",
+                "valueChange": "custom"
+              },
+              {
+                "type": "change",
+                "action": "updatePropType2",
+                "target": "propType2",
+                "attributes": "__newValue",
+                "valueChange": "custom",
+                "values": [
+                  {
+                    "label": "Dwelling",
+                    "value": "Dwelling"
+                  },
+                  {
+                    "label": "Single Family",
+                    "value": "Single Family"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "propType",
+          "map": "prop_type",
+          "typeInput": "string",
+          "label": "property type",
+          "show": "always"
+        },
+        {
+          "name": "propType2",
+          "map": "prop_type2",
+          "typeInput": "enum",
+          "label": "Property subtype",
+          "values": [
+            {
+              "label": "Dwelling",
+              "value": "Dwelling"
+            },
+            {
+              "label": "Single Family",
+              "value": "Single Family"
+            },
+            {
+              "label": "Rowhouse",
+              "value": "Rowhouse"
+            },
+            {
+              "label": "Townhouse",
+              "value": "Townhouse"
+            },
+            {
+              "label": "Condominium",
+              "value": "Condominium"
+            },
+            {
+              "label": "Duplex",
+              "value": "Duplex"
+            },
+            {
+              "label": "Triplex",
+              "value": "Triplex"
+            },
+            {
+              "label": "Quadplex",
+              "value": "Quadplex"
+            },
+            {
+              "label": "Mobile Home",
+              "value": "Mobile Home"
+            },
+            {
+              "label": "Apartment",
+              "value": "Apartment"
+            },
+            {
+              "label": "Unknown",
+              "value": "Unknown"
+            },
+            {
+              "label": "Multifamily",
+              "value": "Multifamily"
+            }
+          ],
+          "defaultValue": "Single Family"
+        },
+        {
+          "name": "propYearBuilt",
+          "map": "prop_year_built",
+          "typeInput": "number",
+          "label": "Property year built",
+          "show": "always"
+        },
+        {
+          "name": "propRoofYear",
+          "map": "prop_roof_year",
+          "typeInput": "number",
+          "label": "Property roof built",
+          "show": "always"
+        },
+        {
+          "name": "propRoofMaterial",
+          "map": "prop_roof_material",
+          "typeInput": "enum",
+          "label": "Property roof material",
+          "values": [
+            {
+              "label": "Metal",
+              "value": "Metal"
+            },
+            {
+              "label": "3-Tab Shingle",
+              "value": "3-Tab Shingle"
+            },
+            {
+              "label": "Architectural Shingle",
+              "value": "Architectural Shingle"
+            },
+            {
+              "label": "Rolled Roof",
+              "value": "Rolled Roof"
+            },
+            {
+              "label": "Tile",
+              "value": "Tile"
+            },
+            {
+              "label": "Reinforced Concrete",
+              "value": "Reinforced Concrete"
+            }
+          ],
+          "defaultValue": "Rolled Roof"
+        },
+        {
+          "name": "propSizeSqft",
+          "map": "prop_size_sqft",
+          "typeInput": "number",
+          "label": "Property size sqft",
+          "show": "always"
+        },
+        {
+          "name": "propStories",
+          "map": "prop_stories",
+          "typeInput": "enum",
+          "label": "Property stories",
+          "values": [
+            {
+              "label": "1",
+              "value": "1"
+            },
+            {
+              "label": "1 1/2",
+              "value": "1-1/2"
+            },
+            {
+              "label": "2",
+              "value": "2"
+            },
+            {
+              "label": "2 1/2",
+              "value": "2-1/2"
+            },
+            {
+              "label": "3",
+              "value": "3"
+            },
+            {
+              "label": "3 1/2",
+              "value": "3-1/2"
+            },
+            {
+              "label": "4",
+              "value": "4"
+            },
+            {
+              "label": "Bi level",
+              "value": "bi-level"
+            },
+            {
+              "label": "Split level",
+              "value": "split-level"
+            },
+            {
+              "label": "Tri level",
+              "value": "tri-level"
+            },
+            {
+              "label": "5 and up",
+              "value": "5-and-up"
+            }
+          ],
+          "defaultValue": "1"
+        },
+        {
+          "name": "propConstructionType",
+          "map": "prop_construction_type",
+          "typeInput": "enum",
+          "label": "Construction type",
+          "values": [
+            {
+              "label": "Masonry-veneer",
+              "value": "Masonry-veneer"
+            },
+            {
+              "label": "Masonry",
+              "value": "Masonry"
+            },
+            {
+              "label": "Frame",
+              "value": "Frame"
+            }
+          ],
+          "defaultValue": "Frame"
+        },
+        {
+          "name": "propDistanceFireHydrantFt",
+          "map": "prop_distance_fire_hydrant_ft",
+          "typeInput": "string",
+          "label": "Distance to closest fire hydrant",
+          "show": "always"
+        },
+        {
+          "name": "propUsage",
+          "map": "prop_usage",
+          "typeInput": "enum",
+          "label": "Usage",
+          "values": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            },
+            {
+              "label": "Seasonal",
+              "value": "Seasonal"
+            }
+          ],
+          "defaultValue": "Primary"
+        },
+        {
+          "name": "numberMonthsOccupied",
+          "map": "prop_number_months_occupied",
+          "typeInput": "enum",
+          "label": "How many months is it occupied in the year?",
+          "values": [
+            {
+              "label": "1",
+              "value": "1"
+            },
+            {
+              "label": "2",
+              "value": "2"
+            },
+            {
+              "label": "3",
+              "value": "3"
+            },
+            {
+              "label": "4",
+              "value": "4"
+            },
+            {
+              "label": "5",
+              "value": "5"
+            },
+            {
+              "label": "6",
+              "value": "6"
+            },
+            {
+              "label": "7",
+              "value": "7"
+            },
+            {
+              "label": "8",
+              "value": "8"
+            },
+            {
+              "label": "9",
+              "value": "9"
+            },
+            {
+              "label": "10",
+              "value": "10"
+            },
+            {
+              "label": "11",
+              "value": "11"
+            },
+            {
+              "label": "12",
+              "value": "12"
+            }
+          ],
+          "defaultValue": "12"
+        },
+        {
+          "name": "propWhoLive",
+          "map": "prop_who_live",
+          "typeInput": "enum",
+          "label": "Who lives there?",
+          "values": [
+            {
+              "label": "Owner",
+              "value": "Owner"
+            },
+            {
+              "label": "Tenant",
+              "value": "Tenant"
+            }
+          ],
+          "defaultValue": "Tenant"
+        },
+        {
+          "name": "coverageA",
+          "map": "prop_coverage_a",
+          "typeInput": "string",
+          "label": "Coverage A",
+          "show": "always"
+        },
+        {
+          "name": "deductiblesHurricane",
+          "map": "deductibles_hurricane",
+          "typeInput": "enum",
+          "label": "Hurricane Deductible",
+          "values": [
+            {
+              "label": "1%",
+              "value": "1%"
+            },
+            {
+              "label": "2%",
+              "value": "2%"
+            },
+            {
+              "label": "5%",
+              "value": "5%"
+            },
+            {
+              "label": "10%",
+              "value": "10%"
+            },
+            {
+              "label": "15%",
+              "value": "15%"
+            },
+            {
+              "label": "20%",
+              "value": "20%"
+            }
+          ],
+          "defaultValue": "2%"
+        },
+        {
+          "name": "deductiblesAOP",
+          "map": "deductibles_aop",
+          "typeInput": "enum",
+          "label": "All Other Perlis Deductible",
+          "values": [
+            {
+              "label": "$500",
+              "value": "500"
+            },
+            {
+              "label": "$1000",
+              "value": "1000"
+            },
+            {
+              "label": "$2000",
+              "value": "2000"
+            },
+            {
+              "label": "$2500",
+              "value": "2500"
+            },
+            {
+              "label": "$5000",
+              "value": "5000"
+            }
+          ],
+          "defaultValue": "2500"
+        },
+        {
+          "name": "propRoofShape",
+          "map": "prop_roof_shape",
+          "typeInput": "enum",
+          "label": "Property roof shape",
+          "values": [
+            {
+              "label": "Flat",
+              "value": "Flat"
+            },
+            {
+              "label": "Gable",
+              "value": "Gable"
+            },
+            {
+              "label": "Hip",
+              "value": "Hip"
+            },
+            {
+              "label": "Other",
+              "value": "Other"
+            }
+          ],
+          "defaultValue": "Other"
+        },
+        {
+          "name": "wmOpeningProtection",
+          "map": "wm_opening_protection",
+          "typeInput": "enum",
+          "label": "Opening Protection",
+          "values": [
+            {
+              "label": "A1 - Hurricane",
+              "value": "A1 - Hurricane"
+            },
+            {
+              "label": "A2 - Hurricane",
+              "value": "A2 - Hurricane"
+            },
+            {
+              "label": "A3 - Hurricane",
+              "value": "A3 - Hurricane"
+            },
+            {
+              "label": "B1 - Basic",
+              "value": "B1 - Basic"
+            },
+            {
+              "label": "B2 - Basic",
+              "value": "B2 - Basic"
+            },
+            {
+              "label": "B3 - Basic",
+              "value": "B3 - Basic"
+            },
+            {
+              "label": "None - Unknown",
+              "value": "None - Unknown"
+            }
+          ],
+          "defaultValue": "None - Unknown"
+        },
+        {
+          "name": "burglarAlarm",
+          "map": "burglar_alarm",
+          "typeInput": "enum",
+          "label": "Burglar alarm",
+          "values": [
+            {
+              "label": "None",
+              "value": "None"
+            },
+            {
+              "label": "Central",
+              "value": "Central"
+            },
+            {
+              "label": "Local",
+              "value": "Local"
+            }
+          ],
+          "defaultValue": "None"
+        },
+        {
+          "name": "fireAlarm",
+          "map": "fire_alarm",
+          "typeInput": "enum",
+          "label": "Fire alarm",
+          "values": [
+            {
+              "label": "None",
+              "value": "None"
+            },
+            {
+              "label": "Central",
+              "value": "Central"
+            },
+            {
+              "label": "Local",
+              "value": "Local"
+            }
+          ],
+          "defaultValue": "None"
+        },
+        {
+          "name": "wmRoofDeckAttachment",
+          "map": "wm_roof_deck_attachment",
+          "typeInput": "enum",
+          "label": "Roof Deck Attachment (Wind Mitigation)",
+          "values": [
+            {
+              "label": "A - 6d @ 6/12",
+              "value": "A - 6d @ 6/12"
+            },
+            {
+              "label": "B - 8d @ 6/12",
+              "value": "B - 8d @ 6/12"
+            },
+            {
+              "label": "C - 8d @ 6/6",
+              "value": "C - 8d @ 6/6"
+            },
+            {
+              "label": "D 8d @ 6/6 Dimensional Lumber Deck",
+              "value": "D 8d @ 6/6 Dimensional Lumber Deck"
+            },
+            {
+              "label": "Reinforced Concrete Roof Deck",
+              "value": "Reinforced Concrete Roof Deck"
+            },
+            {
+              "label": "Other Roof Deck",
+              "value": "Other Roof Deck"
+            }
+          ],
+          "defaultValue": "Other Roof Deck"
+        },
+        {
+          "name": "wmRoofWallConnection",
+          "map": "wm_roof_wall_connection",
+          "typeInput": "enum",
+          "label": "Roof Wall Connection (Wind Mitigation)",
+          "values": [
+            {
+              "label": "Toe Nails",
+              "value": "Toe Nails"
+            },
+            {
+              "label": "Clips",
+              "value": "Clips"
+            },
+            {
+              "label": "Single Wraps",
+              "value": "Single Wraps"
+            },
+            {
+              "label": "Double Wraps",
+              "value": "Double Wraps"
+            },
+            {
+              "label": "Structural/Reinforced Concrete",
+              "value": "Structural/Reinforced Concrete"
+            },
+            {
+              "label": "Unknown",
+              "value": "Unknown"
+            }
+          ],
+          "defaultValue": "Unknown"
+        },
+        {
+          "name": "wmSwr",
+          "map": "wm_swr",
+          "typeInput": "enum",
+          "label": "SWR (Secondary Water Resistance)",
+          "values": [
+            {
+              "label": "No",
+              "value": "No"
+            },
+            {
+              "label": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "defaultValue": "No"
+        },
+        {
+          "name": "wmRoofCover",
+          "map": "wm_roof_cover",
+          "typeInput": "enum",
+          "label": "Roof Cover",
+          "values": [
+            {
+              "label": "FBC Equivalent",
+              "value": "FBC Equivalent"
+            },
+            {
+              "label": "Non- FBC Equivalent",
+              "value": "Non- FBC Equivalent"
+            },
+            {
+              "label": "Concrete Roof Deck",
+              "value": "Concrete Roof Deck"
+            },
+            {
+              "label": "Reinforced Concrete Roof Deck",
+              "value": "Reinforced Concrete Roof Deck"
+            },
+            {
+              "label": "Other",
+              "value": "Other"
+            }
+          ],
+          "defaultValue": "Non- FBC Equivalent"
+        }
+      ]
+    },
+    "Coverage": {
+      "properties": []
+    },
+    "Risk Characteristics": {
+      "properties": []
+    }
+  },
+  "__v": 0,
+  "map": {
+    "prop_address_full": {
+      "street_line": "253 NE 2nd Ave",
+      "secondary": "",
+      "city": "Delray Beach",
+      "state": "FL",
+      "zipcode": "33444",
+      "entries": 0
+    },
+    "prop_country": "US",
+    "prop_county": "Broward County",
+    "prop_state": "FL",
+    "prop_city": "DEERFIELD BEACH",
+    "prop_zip_code": "33442",
+    "prop_address_line_1": "4786 SW 14TH PL",
+    "prop_address_line_2": "DEERFIELD BEACH, FL 33442",
+    "prop_address_line_3": "-",
+    "insured_birth_date": "01/01/2002",
+    "insured_type": "individual",
+    "insured_trust_name": "-",
+    "insured_llc_name": "-",
+    "insured_name": "weq",
+    "insured_middlename": " ",
+    "insured_lastname": "eq",
+    "prop_insured_phone": "-",
+    "prop_insured_email": "eq@dhd.co"
+  }
+}
