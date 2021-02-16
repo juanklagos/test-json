@@ -242,6 +242,7 @@
           ],
           "defaultValue": "custom",
           "customData": {
+            "show": true,
             "events": [
               {
                 "type": "hide",
@@ -277,6 +278,7 @@
           "label": "property type",
           "show": "always",
           "customData": {
+            "show": true,
             "events": []
           }
         },
