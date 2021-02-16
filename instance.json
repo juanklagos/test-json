@@ -235,14 +235,14 @@
             "events": [
               {
                 "type": "hide",
-                "action": "hidePropType",
+                "action": "hide",
                 "target": "propType",
                 "attributes": "__newValue",
                 "valueChange": "custom"
               },
               {
                 "type": "change",
-                "action": "updatePropType2",
+                "action": "update",
                 "target": "propType2",
                 "attributes": "__newValue",
                 "valueChange": "custom",
