@@ -265,7 +265,10 @@
           "map": "prop_type",
           "typeInput": "string",
           "label": "property type",
-          "show": "always"
+          "show": "always",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propType2",
@@ -322,21 +325,30 @@
               "value": "Multifamily"
             }
           ],
-          "defaultValue": "Single Family"
+          "defaultValue": "Single Family",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propYearBuilt",
           "map": "prop_year_built",
           "typeInput": "number",
           "label": "Property year built",
-          "show": "always"
+          "show": "always",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propRoofYear",
           "map": "prop_roof_year",
           "typeInput": "number",
           "label": "Property roof built",
-          "show": "always"
+          "show": "always",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propRoofMaterial",
@@ -369,14 +381,20 @@
               "value": "Reinforced Concrete"
             }
           ],
-          "defaultValue": "Rolled Roof"
+          "defaultValue": "Rolled Roof",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propSizeSqft",
           "map": "prop_size_sqft",
           "typeInput": "number",
           "label": "Property size sqft",
-          "show": "always"
+          "show": "always",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propStories",
@@ -429,7 +447,10 @@
               "value": "5-and-up"
             }
           ],
-          "defaultValue": "1"
+          "defaultValue": "1",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propConstructionType",
@@ -450,14 +471,20 @@
               "value": "Frame"
             }
           ],
-          "defaultValue": "Frame"
+          "defaultValue": "Frame",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propDistanceFireHydrantFt",
           "map": "prop_distance_fire_hydrant_ft",
           "typeInput": "string",
           "label": "Distance to closest fire hydrant",
-          "show": "always"
+          "show": "always",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propUsage",
@@ -478,7 +505,10 @@
               "value": "Seasonal"
             }
           ],
-          "defaultValue": "Primary"
+          "defaultValue": "Primary",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "numberMonthsOccupied",
@@ -535,7 +565,10 @@
               "value": "12"
             }
           ],
-          "defaultValue": "12"
+          "defaultValue": "12",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propWhoLive",
@@ -552,14 +585,20 @@
               "value": "Tenant"
             }
           ],
-          "defaultValue": "Tenant"
+          "defaultValue": "Tenant",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "coverageA",
           "map": "prop_coverage_a",
           "typeInput": "string",
           "label": "Coverage A",
-          "show": "always"
+          "show": "always",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "deductiblesHurricane",
@@ -592,7 +631,10 @@
               "value": "20%"
             }
           ],
-          "defaultValue": "2%"
+          "defaultValue": "2%",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "deductiblesAOP",
@@ -621,7 +663,10 @@
               "value": "5000"
             }
           ],
-          "defaultValue": "2500"
+          "defaultValue": "2500",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "propRoofShape",
@@ -646,7 +691,10 @@
               "value": "Other"
             }
           ],
-          "defaultValue": "Other"
+          "defaultValue": "Other",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "wmOpeningProtection",
@@ -683,7 +731,10 @@
               "value": "None - Unknown"
             }
           ],
-          "defaultValue": "None - Unknown"
+          "defaultValue": "None - Unknown",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "burglarAlarm",
@@ -704,7 +755,10 @@
               "value": "Local"
             }
           ],
-          "defaultValue": "None"
+          "defaultValue": "None",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "fireAlarm",
@@ -725,7 +779,10 @@
               "value": "Local"
             }
           ],
-          "defaultValue": "None"
+          "defaultValue": "None",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "wmRoofDeckAttachment",
@@ -758,7 +815,10 @@
               "value": "Other Roof Deck"
             }
           ],
-          "defaultValue": "Other Roof Deck"
+          "defaultValue": "Other Roof Deck",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "wmRoofWallConnection",
@@ -791,7 +851,10 @@
               "value": "Unknown"
             }
           ],
-          "defaultValue": "Unknown"
+          "defaultValue": "Unknown",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "wmSwr",
@@ -808,7 +871,10 @@
               "value": "Yes"
             }
           ],
-          "defaultValue": "No"
+          "defaultValue": "No",
+          "customData": {
+            "events": []
+          }
         },
         {
           "name": "wmRoofCover",
@@ -837,7 +903,10 @@
               "value": "Other"
             }
           ],
-          "defaultValue": "Non- FBC Equivalent"
+          "defaultValue": "Non- FBC Equivalent",
+          "customData": {
+            "events": []
+          }
         }
       ]
     },
