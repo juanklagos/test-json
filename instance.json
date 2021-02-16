@@ -387,6 +387,7 @@
           ],
           "defaultValue": "Single Family",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -397,6 +398,7 @@
           "label": "Property year built",
           "show": "always",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -407,6 +409,7 @@
           "label": "Property roof built",
           "show": "always",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -469,6 +472,7 @@
           ],
           "defaultValue": "Rolled Roof",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -479,6 +483,7 @@
           "label": "Property size sqft",
           "show": "always",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -581,6 +586,7 @@
           ],
           "defaultValue": "1",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -619,6 +625,7 @@
           ],
           "defaultValue": "Frame",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -629,6 +636,7 @@
           "label": "Distance to closest fire hydrant",
           "show": "always",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -667,6 +675,7 @@
           ],
           "defaultValue": "Primary",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -777,6 +786,7 @@
           ],
           "defaultValue": "12",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -807,6 +817,7 @@
           ],
           "defaultValue": "Tenant",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -817,6 +828,7 @@
           "label": "Coverage A",
           "show": "always",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -879,6 +891,7 @@
           ],
           "defaultValue": "2%",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -933,6 +946,7 @@
           ],
           "defaultValue": "2500",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -979,6 +993,7 @@
           ],
           "defaultValue": "Other",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1049,6 +1064,7 @@
           ],
           "defaultValue": "None - Unknown",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1087,6 +1103,7 @@
           ],
           "defaultValue": "None",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1125,6 +1142,7 @@
           ],
           "defaultValue": "None",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1187,6 +1205,7 @@
           ],
           "defaultValue": "Other Roof Deck",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1249,6 +1268,7 @@
           ],
           "defaultValue": "Unknown",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1279,6 +1299,7 @@
           ],
           "defaultValue": "No",
           "customData": {
+            "show": true,
             "events": []
           }
         },
@@ -1333,6 +1354,7 @@
           ],
           "defaultValue": "Non- FBC Equivalent",
           "customData": {
+            "show": true,
             "events": []
           }
         }
