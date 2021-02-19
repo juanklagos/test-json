@@ -789,6 +789,54 @@
           "defaultValue": "12",
           "customData": {
             "show": true,
+            "initFieldEnum": {
+              "source": "insured_type",
+              "action": "setValue | show",
+              "options": {
+                "individual": [
+                  {
+                    "label": "2",
+                    "value": "2"
+                  },
+                  {
+                    "label": "3",
+                    "value": "3"
+                  },
+                  {
+                    "label": "4",
+                    "value": "4"
+                  },
+                  {
+                    "label": "5",
+                    "value": "5"
+                  },
+                  {
+                    "label": "6",
+                    "value": "6"
+                  }
+                ],
+                "company": [
+                  {
+                    "label": "7",
+                    "value": "7"
+                  },
+                  {
+                    "label": "8",
+                    "value": "8"
+                  },
+                  {
+                    "label": "9",
+                    "value": "9"
+                  }
+                ],
+                "__intelagent_default_value__": [
+                  {
+                    "label": "0",
+                    "value": "0"
+                  }
+                ]
+              }
+            },
             "events": []
           }
         },
@@ -831,6 +879,14 @@
           "show": "always",
           "customData": {
             "show": true,
+            "initFieldString": {
+              "action": "setValue | show",
+              "options": {
+                "individual": "200",
+                "company": "300",
+                "__intelagent_default_value__": "0"
+              }
+            },
             "events": []
           }
         },
