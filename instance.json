@@ -791,7 +791,7 @@
             "show": true,
             "initFieldEnum": {
               "source": "insured_type",
-              "action": "setValue | show",
+              "action": "update",
               "options": {
                 "individual": [
                   {
@@ -880,7 +880,7 @@
           "customData": {
             "show": true,
             "initFieldString": {
-              "action": "setValue | show",
+              "action": "update",
               "options": {
                 "individual": "200",
                 "company": "300",
