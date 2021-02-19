@@ -486,6 +486,15 @@
           "show": "always",
           "customData": {
             "show": true,
+            "initFieldNumber": {
+              "source": "insured_type",
+              "action": "update",
+              "options": {
+                "individual": 1555,
+                "company": 2111,
+                "__intelagent_default_value__": 1111
+              }
+            },
             "events": []
           }
         },
