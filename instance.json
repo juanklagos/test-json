@@ -880,6 +880,7 @@
           "customData": {
             "show": true,
             "initFieldString": {
+              "source": "insured_type",
               "action": "update",
               "options": {
                 "individual": "200",
